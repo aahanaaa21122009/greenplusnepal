@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Plus Nepal (G+ Nepal)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4CAF50;
+      --accent: #a8d5ba;
+      --bg: #f5f9f6;
+      --text: #333;
+      --heading: 'Playfair Display', serif;
+      --body: 'Open Sans', sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: var(--body);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: var(--heading);
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-family: var(--heading);
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .expertise-list div {
+      background: white;
+      border-left: 4px solid var(--primary);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    form {
+      background: white;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 0.3rem;
+    }
+    form button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+      border-radius: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Green Plus Nepal (G+ Nepal)</h1>
+    <p>Advancing Climate Resilience through Finance, Nature & Innovation</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>G+ Nepal is a pioneering organization dedicated to sustainable development and climate resilience. We bridge environmental challenges with finance-driven strategies, empowering communities, businesses, and governments to transition toward a low-carbon future.</p>
+  </section>
+
+  <section>
+    <h2>Our Expertise</h2>
+    <div class="expertise-list">
+      <div><strong>Climate Finance for Adaptation - Mitigation:</strong> Designing bankable projects for accessing climate funds transparently and effectively.</div>
+      <div><strong>Nature-Based Solutions:</strong> Climate-smart agriculture, agroforestry, and ecosystem restoration to enhance biodiversity and livelihoods.</div>
+      <div><strong>Green Technology Supply Chain:</strong> Access to clean energy, waste-to-resource, and energy-efficient technologies for rural/urban resilience.</div>
+      <div><strong>Eco-Innovation Ecosystem:</strong> Supporting R&D, piloting scalable green business models, and startup incubation.</div>
+      <div><strong>Climate Auditing:</strong> Measuring footprints, adaptation progress, compliance (ISO 14064, Gold Standard), and policy knowledge management.</div>
+      <div><strong>End-to-End Project Support:</strong> Full-cycle project support from design to execution, aligned with global climate standards.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Green Plus Nepal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
